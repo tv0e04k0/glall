@@ -48,4 +48,5 @@ def webhook():
         bot.send_message(chat_id, '❌ Действие отменено.')
         send_main_menu(chat_id)
     else:
-        result = search_stock(_
+ result = search_stock(text)
+
